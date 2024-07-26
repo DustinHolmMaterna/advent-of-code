@@ -4,7 +4,9 @@ pub fn execute_part_a() {
 }
 
 fn solve_a(input: &str) -> i32 {
-    42
+    let input_list: Vec<&str> = input.lines().collect();
+
+    input_list.len() as i32
 }
 
 #[cfg(test)]
