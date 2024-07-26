@@ -1,11 +1,5 @@
-fn main() {
-    println!("Hello, world!");
-}
+mod day01;
 
-#[cfg(test)]
-mod test {
-    #[test]
-    fn run_test() {
-        assert_eq!(1, 1);
-    }
+fn main() {
+    day01::execute_part_a();
 }
